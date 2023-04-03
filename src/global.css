@@ -1,0 +1,14 @@
+.navlinks:hover{
+    border-top: 3px solid #ff8c1a;
+    border-bottom: 3px solid #ff8c1a;
+    background-color: #efe8e8;
+}
+.navlinks{
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    width: 75px;
+    text-align: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 12px;
+}
