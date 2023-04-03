@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container-fluid">
-          <Link className="navbar-brand fs-1 fw-bold ms-3" style={{color:"#aa21bf"}} to="#">Portfolio</Link>
+          <Link className="navbar-brand fs-1 fw-bold ms-3" style={{color:"#1164bd"}} to="#">Portfolio</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
