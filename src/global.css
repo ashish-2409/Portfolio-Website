@@ -13,8 +13,10 @@
     padding-right: 12px;
 }
 .maindiv{
-    background-color: #e5f6f9;
+    /* background-color: #e5f6f9; */
+    margin: auto;
     height: 500px;
+    width: 800px;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -41,4 +43,13 @@
     justify-content: center;
     width: 50%;
     
+}
+
+.techStack{
+    /* background-color: cyan; */
+}
+.listHorizontal{
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
