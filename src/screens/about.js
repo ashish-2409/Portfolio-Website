@@ -1,7 +1,7 @@
 import React from 'react'
 import image2 from '../images/image2.jpg'
 import '../global.css'
-export default function about() {
+export default function About() {
   return (
     <div className='aboutdiv' id='aboutSection'>
         <p className=' container'><img src={image2} alt="Not Found" style={{ float: "left", width: "250px", height: "250px", marginLeft: "15px", marginRight: "50px",borderRadius:"20px" }} />

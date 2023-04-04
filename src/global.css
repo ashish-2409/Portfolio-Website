@@ -1,3 +1,20 @@
+.imageLeft{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.imageRight{
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
 .navlinks:hover{
     border-top: 4px solid #ff8c1a;
     border-bottom: 4px solid #ff8c1a;
@@ -8,6 +25,16 @@
     margin-top: 200px;
     height: 500px;
     width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #eeeeee; */
+}
+.projectdiv{
+    margin:auto;
+    margin-top: 50px;
+    height: 300px;
+    width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;

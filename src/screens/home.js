@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar';
 import About from './about';
+import Projects from './projects'
 import '../global.css';
 import image from '../images/image.jpg'
 import htmllogo from '../images/html.jpg'
@@ -59,6 +60,7 @@ export default function Home() {
         </ul>
       </div>
     <About/>
+    <Projects/>
     </>
   )
 }
