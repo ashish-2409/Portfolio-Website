@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Link className="nav-link active mx-1 navlinks fw-bold" aria-current="page" to="#">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active mx-2 navlinks fw-bold" to="#">About</Link>
+                <a className="nav-link active mx-2 navlinks fw-bold" href="#aboutSection">About</a>
               </li>
               <li className="nav-item">
                 <Link className="nav-link active mx-2 navlinks fw-bold" to="#">Projects</Link>

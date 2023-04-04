@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/navbar';
+import About from './about';
 import '../global.css';
 import image from '../images/image.jpg'
 import htmllogo from '../images/html.jpg'
@@ -57,7 +58,7 @@ export default function Home() {
           </li>          
         </ul>
       </div>
-
+    <About/>
     </>
   )
 }
