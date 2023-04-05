@@ -16,16 +16,16 @@ export default function Home() {
       <Navbar />
       <div className='maindiv'>
         <p className=' container'><img src={image} alt="Not Found" style={{ float: "right", width: "250px", height: "250px", marginLeft: "15px", marginRight: "50px" }} />
-          <div style={{ color: 'gray', fontSize: "20px" }}>
+          <div style={{ color: 'gray', fontSize: "20px",fontFamily:"Regular" }}>
             HELLO!
           </div>
-          <div style={{ fontSize: "40px" }}>
-            I'm <span style={{ fontWeight: "bold" }}>Ashish
+          <div style={{ fontSize: "40px",fontFamily:"Regular" }}>
+            I'm <span style={{ fontFamily:"ExtraBold", fontWeight:"bolder" }}>Ashish
               <br />
             </span>
-            <strong>a</strong> Full Stack Developer
+            <strong style={{ fontFamily:"ExtraBold", fontWeight:"bolder" }}>a</strong> Full Stack Developer
           </div>
-          <div style={{ width: "500px" }}>
+          <div style={{ width: "500px",fontFamily:"Regular" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, quis.
           </div>
         </p>
@@ -37,7 +37,7 @@ export default function Home() {
       <div className='techStack'>
         <ul className='listHorizontal'>
         <li>
-            <strong style={{marginLeft:"-210px"}}>Tech Stack |</strong>
+            <strong style={{marginLeft:"-210px",fontFamily:"ExtraBold", fontWeight:"bolder"}}>Tech Stack |</strong>
           </li>
           <li>
             <img src={htmllogo} alt="" style={{height:"40px" ,marginLeft:"20px", marginRight:"20px"}} />

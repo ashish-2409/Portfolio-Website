@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Bold";
+  src: url('./fonts/NanumGothic-Bold.ttf');
+}
+@font-face {
+  font-family: "Regular";
+  src: url('./fonts/NanumGothic-Regular.ttf');
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url('./fonts/NanumGothic-ExtraBold.ttf');
+}
