@@ -31,7 +31,8 @@ body {
     /* background-color: #e5f6f9; */
     margin: auto;
     height: 500px;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     /* display: flex; */
     align-items:center;
     justify-content: center;
@@ -52,10 +53,29 @@ body {
     margin: auto;
 }
 
+#techStack2 {
+    /* background-color: #eee; */
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+
 .grid {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+}
+
+.grid2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.techImg2 {
+    width: 50%;
+    max-width: 35px;
+    text-align: center;
+    margin: auto;
 }
 
 #codingProfiles {
@@ -79,6 +99,27 @@ body {
     grid-template-columns: repeat(5, 1fr);
 }
 
+#codingProfiles2 {
+    /* background-color: #eee; */
+    display: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.profileImg2 {
+    width: 50%;
+    max-width: 35px;
+    text-align: center;
+    margin: auto;
+}
+
+.grid5col2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
 #aboutSection {
     /* background-color: #eee; */
     margin: auto;
@@ -97,8 +138,9 @@ body {
 .aboutdiv{
     margin:auto;
     margin-top: 200px;
-    height: 500px;
-    width: 800px;
+    height: 500px;   
+    width: 100%;
+    max-width: 800px;
     display: none;
     align-items: center;
     justify-content: center;
@@ -205,6 +247,18 @@ body {
         display: none;
     }
     #projects2{
+        display: block;
+    }
+    #techStack{
+        display: none;
+    }
+    #techStack2{
+        display: block;
+    }
+    #codingProfiles{
+        display: none;
+    }
+    #codingProfiles2{
         display: block;
     }
 }
