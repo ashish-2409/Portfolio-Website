@@ -3,7 +3,7 @@ import image2 from '../images/image2.jpg'
 import '../global.css'
 export default function About() {
   return (
-    <section id="about">
+    <section id="aboutSection">
     <div style={{ color: 'blue', fontSize: "1em", fontWeight: "bolder", textAlign: 'center', marginBottom: "20px" }}>
       ABOUT ME
     </div>

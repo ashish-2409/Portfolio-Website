@@ -54,7 +54,7 @@ body{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
-#about{
+#aboutSection{
     /* background-color: #eee; */
     margin: auto;
     margin-top: 250px;
