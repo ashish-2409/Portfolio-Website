@@ -71,12 +71,6 @@ body {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-.techImg2 {
-    width: 50%;
-    max-width: 35px;
-    text-align: center;
-    margin: auto;
-}
 
 #codingProfiles {
     /* background-color: #eee; */
