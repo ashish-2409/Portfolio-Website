@@ -1,6 +1,9 @@
 body {
     font-size: 40px;
 }
+#navbar2{
+    display: none;
+}
 .navlinks{
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
@@ -253,6 +256,12 @@ body {
         display: none;
     }
     #codingProfiles2{
+        display: block;
+    }
+    #navbar1{
+        display: none;
+    }
+    #navbar2{
         display: block;
     }
 }
